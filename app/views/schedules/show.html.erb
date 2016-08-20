@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Lead:</strong>
+  <%= @schedule.lead %>
+</p>
+
+<p>
+  <strong>Sent at:</strong>
+  <%= @schedule.sent_at %>
+</p>
+
+<%= link_to 'Edit', edit_schedule_path(@schedule) %> |
+<%= link_to 'Back', schedules_path %>

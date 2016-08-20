@@ -1,14 +1,14 @@
 # == Schema Information
 #
-# Table name: leads
+# Table name: schedules
 #
 #  id         :integer          not null, primary key
-#  name       :string
-#  email      :string
+#  lead_id    :integer
+#  sent_at    :datetime
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
 #
 
-class Lead < ApplicationRecord
-  has_many :schedules
+class Schedule < ApplicationRecord
+  belongs_to :lead
 end
