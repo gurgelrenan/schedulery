@@ -10,6 +10,7 @@ gem 'turbolinks', '~> 5'
 gem 'coffee-rails', '~> 4.2'
 gem 'annotate'
 gem 'sidekiq'
+gem 'clockwork'
 
 group :development, :test do
   gem 'pry-byebug'
