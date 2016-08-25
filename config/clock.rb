@@ -7,5 +7,5 @@ module Clockwork
     puts "Running #{job}"
   end
 
-  every(10.seconds, 'Run a job', tz: 'UTC') { SchedulerWorker.perform_async(123) }
+  every(10.seconds, 'Run a job', tz: 'UTC') { SchedulerWorker.perform_async(1) }
 end
