@@ -9,6 +9,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'jquery-rails'
 gem 'turbolinks', '~> 5'
 gem 'coffee-rails', '~> 4.2'
+gem 'therubyracer', platforms: :ruby
 gem 'annotate'
 gem 'sidekiq'
 gem 'clockwork'
@@ -31,8 +32,4 @@ group :development do
   gem 'capistrano-rails', require: false
   gem 'capistrano-bundler', require: false
   gem 'capistrano-rvm'
-end
-
-group :production do
-  gem 'therubyracer', platforms: :ruby
 end
