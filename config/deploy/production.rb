@@ -1,3 +1,3 @@
 set :stage, :production
 
-server '54.186.197.228', user: 'deploy', roles: %w{web app db}
+server '52.43.231.56', user: 'deploy', roles: %w{web app db}

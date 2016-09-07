@@ -1,3 +1,4 @@
+# https://www.sitepoint.com/deploy-your-rails-app-to-aws/
 lock '3.6.1'
 
 set :application, 'schedulery'
