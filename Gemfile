@@ -32,3 +32,7 @@ group :development do
   gem 'capistrano-bundler', require: false
   gem 'capistrano-rvm'
 end
+
+group :production do
+  gem 'therubyracer', platforms: :ruby
+end
