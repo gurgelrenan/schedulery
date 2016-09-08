@@ -12,7 +12,7 @@ gem 'coffee-rails', '~> 4.2'
 gem 'therubyracer', platforms: :ruby
 gem 'annotate'
 gem 'sidekiq'
-gem 'sinatra', require: false
+gem 'sinatra', github: 'sinatra', require: false
 gem 'clockwork'
 
 group :development, :test do
